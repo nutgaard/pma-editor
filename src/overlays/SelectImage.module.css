@@ -1,0 +1,50 @@
+.overlay {
+    padding: 0.25rem 0.5rem;
+    min-width: 15rem;
+}
+
+.overlay h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    border-bottom: 2px solid white;
+    margin-bottom: 8px;
+}
+
+.dragcontainer {
+    border: 1px dashed lightgray;
+    color: lightgray;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.25rem 0.5rem 0.5rem 0.5rem;
+}
+
+.dragcontainer button {
+    padding: 0.25rem 0.5rem;
+    border: 1px solid gray;
+    color: black;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.dragcontainer button:hover {
+    background-color: blanchedalmond;
+}
+.dragcontainer button:active {
+    background-color: bisque;
+}
+
+.dragcontainer input {
+    position: absolute;
+    left: -9999px;
+}
+.dragcontainer img {
+    max-width: 100%;
+    margin-bottom: 0.25rem;
+}
+
+.highlight {
+    background-color: white;
+    color: black
+}

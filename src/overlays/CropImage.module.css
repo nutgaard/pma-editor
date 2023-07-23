@@ -1,0 +1,27 @@
+.overlay {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    padding: 0.25rem 0.5rem;
+    max-width: 10rem;
+}
+
+.overlay h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    border-bottom: 2px solid white;
+    margin-bottom: 8px;
+}
+.done {
+    width: 100%;
+    padding: 0.25rem 0.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: dodgerblue;
+}
+.done:hover {
+    background-color: royalblue;
+}
+.done:active {
+    background-color: darkslateblue;
+}

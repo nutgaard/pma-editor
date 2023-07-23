@@ -1,0 +1,36 @@
+.app {
+    display: grid;
+    grid-template-areas: "header" "main";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    height: 100%;
+}
+
+.header {
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    box-shadow: 0 0 3px 1px gray;
+}
+
+.header h1 {
+    font-weight: 200;
+}
+
+.header :where(img,a) {
+    height: 100%;
+}
+.header img {
+    transition: filter 0.25s;
+    filter: drop-shadow(0 0 0.55rem white);
+}
+.header img:hover {
+    filter: drop-shadow(0 0 0.55rem white) drop-shadow(0 0 0.55rem gray);
+}
+
+.main {
+    grid-area: main;
+    position: relative;
+}
